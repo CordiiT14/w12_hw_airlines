@@ -1,2 +1,2 @@
-public class CabinCrew {
+public class CabinCrew{
 }
