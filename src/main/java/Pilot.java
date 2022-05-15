@@ -14,4 +14,8 @@ public class Pilot extends CabinCrew{
     public void setPilotLicense(String pilotLicense) {
         this.pilotLicense = pilotLicense;
     }
+
+    public String flyPlane(){
+        return "Best Pilot in the Galaxy";
+    }
 }

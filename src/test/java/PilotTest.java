@@ -22,4 +22,9 @@ public class PilotTest {
         pilot.setRank(RankType.COPILOT);
         assertEquals(RankType.COPILOT, pilot.getRank());
     }
+
+    @Test
+    public void canFly(){
+        assertEquals("Best Pilot in the Galaxy", pilot.flyPlane());
+    }
 }
